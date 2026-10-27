@@ -3,19 +3,40 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Original+Surfer&family=Sigmar&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/main.css">
   </head>
   <body>
-    <nav>
-      <a href="/">Home</a>
-      <!-- <a href="/blog/">Blog</a> -->
-    </nav>
-    <h1>{{ page.title }}</h1>
+    <section>
+      <div class="logo">
+        <img src="assets/exink-temp-logo.png" alt="ex ink logo">
+      </div>
+    </section>
     <section>
       {{ content }}
     </section>
+    <section>
+      <h1>About</h1>
+      <p>
+        ex ink is a small DIY press/distro specializing in thoughtful, broad-minded, and playful wordy zines. We care about connecting with other humans and having fun while doing so.
+      </p>
+      <p>
+        By purchasing, stealing, or otherwise possessing an ex ink zine, you agree not to digitize it, feed it into AI, or put it on the internet.
+      </p>
+      <p>
+        Long live analog human media.
+      </p>
+
+      </p>
+    </section>
+    <section>
+      <h1>Contact</h1>
+      <p>Drop us some love: ex at exink.ink</p>
+    </section>
     <footer>
-      &copy; to me
+      &copy; ex ink
     </footer>
   </body>
 </html>

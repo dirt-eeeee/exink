@@ -7,13 +7,100 @@
 $yellow: #F5EB27;
 $turquoise: #27F5EB;
 $fuchsia: #EB27F5;
+$text-black: #1A1A1A;
 
 body {
     background-color: $yellow;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+section {
+    width: 80%;
+    margin: 50px auto;
+}
+
+h1 {
+  font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: $text-black;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.zine-title {
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
+.logo {
+    height:250px;
+    display: flex;
+    justify-content: center;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
 }
+
+.zine-card {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*.zine-image-box {
+    width: 300px;
+    height: 150px;
+    background-color: $turquoise;
+    /* Apply a 15px radius to all four corners */
+    /*border-radius: 15px; 
+    transform: skewX(-15deg);*/
+/*}*/
+
+/* Container to hold both layers safely */
+.zine-image-box {
+  position: relative; /* Acts as the anchor for absolute positioning */
+  // width: 300px;
+  height: 150px;
+  margin: 90px auto;
+  // overflow: hidden; /* Cleanly cuts off extra background spillover */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+/* Base style for both boxes */
+.angled-box {
+    grid-row: 1;
+    grid-column: 1;
+    border-radius: 15px;
+    max-width: 300px;
+    width: 300px;
+}
+
+/* The box sitting underneath */
+.box-bottom {
+    rotate: 55deg;
+}
+
+/* The box sitting on top */
+.box-top {
+    rotate: -37deg; 
+}
+
+.turquoise {
+    background-color: $turquoise;
+}
+
+.fuchsia {
+    background-color: $fuchsia;
+}
+
