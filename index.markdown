@@ -9,8 +9,9 @@ layout: default
   {% for zine in site.data.zines %}
     <article class="grid-item zine-card">
       <div class="zine-image-box">
-      	<div class="angled-box box-bottom turquoise"></div>
-      	<div class="angled-box box-top fuchsia"></div>
+      	<div class="zine-image-box-item rounded box-bottom turquoise"></div>
+      	<div class="zine-image-box-item rounded box-top fuchsia"></div>
+      	<img src="assets/covers/{{zine.front_cover}}" alt="Front cover of {{zine.title}}" class="zine-image-box-item zine-image {{zine.cover_style}}">
       </div>
       <p class="zine-title">{{ zine.title }}</p>
       <p class="italic">{{ zine.genre }}</p>

@@ -2,48 +2,63 @@
   genre: Choose Your Own Adventure
   author: Mustang
   blurb: "A wood oracle warns Red of a great fire in Baltimore, and they must figure out whether to act."
+  front_cover: "red.png"
 
 - title: "A Tragedy of Blueberries, Blueberries, Blueberries"
   genre: Choose Your Own Point of View
   author: Mustang
   blurb: "A tale of a fruit obsession, or of unrequited love? You decide which character to believe as you read their side-by-side stories."
+  front_cover: "blueberries.png"
 
 - title: "Guns Out"
   genre: Fiction
   author: Mustang
   blurb: "Old lesbians, guns, and Southern charm."
+  front_cover: "guns_out.png"
 
 - title: "Softer, Softest: or Territorial Pissings"
   genre: Fiction
   author: dirt
   blurb: ""
-
-- title: "On the Exceeding Sexiness of Cartoon Mice and Rats on Glue Trap Packaging"
-  genre: "Research/Theory"
-  author: dirt
-  blurb: ""
+  front_cover: "softer_softest.png"
 
 - title: "Crawling: An Invertebrate Perspective on Sex and Popular Music"
   genre: "Research/Theory"
   author: The Arthropocene Collective
   blurb: ""
+  front_cover: "crawling.png"
+
+- title: "On the Exceeding Sexiness of Cartoon Mice and Rats on Glue Trap Packaging"
+  genre: "Research/Theory"
+  author: dirt
+  blurb: ""
+  front_cover: "glue_traps.png"
+  cover_style: square
 
 - title: "Blind Hunt"
   genre: Smutstang by Mustang
   author: Mustang
   blurb: ""
+  front_cover: "blind_hunt.png"
+  cover_style: square
 
 - title: "Lessons from Skewly #1"
   genre: Smutstang by Mustang
   author: Mustang
   blurb: ""
+  front_cover: "skewly1.png"
+  cover_style: square
 
 - title: "Lessons from Skewly #2"
   genre: Smutstang by Mustang
   author: Mustang
   blurb: ""
+  front_cover: "skewly2.png"
+  cover_style: square
 
 - title: "A Love Story About Dust"
   genre: Smutstang by Mustang
   author: Mustang
   blurb: "A horny haunted house story in which the house itself is horny."
+  front_cover: "dust.png"
+  cover_style: square
