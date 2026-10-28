@@ -70,22 +70,31 @@ h1 {
 /* Container to hold both layers safely */
 .zine-image-box {
   position: relative; /* Acts as the anchor for absolute positioning */
-  // width: 300px;
-  height: 150px;
+  height: 165px;
   margin: 90px auto;
-  // overflow: hidden; /* Cleanly cuts off extra background spillover */
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; 
+}
+
+.zine-image-box-item {
+    grid-row: 1;
+    grid-column: 1;
+    max-width: 300px;
+    height: 150px;
+}
+
+.zine-image {
+    position: absolute;
+    height: 230px;
+    margin-left: 65px;
 }
 
 /* Base style for both boxes */
-.angled-box {
-    grid-row: 1;
-    grid-column: 1;
+.rounded {
     border-radius: 15px;
-    max-width: 300px;
-    width: 300px;
 }
 
 /* The box sitting underneath */
@@ -106,3 +115,7 @@ h1 {
     background-color: $fuchsia;
 }
 
+.square {
+    height: 175px;
+    width: 175px;
+}
